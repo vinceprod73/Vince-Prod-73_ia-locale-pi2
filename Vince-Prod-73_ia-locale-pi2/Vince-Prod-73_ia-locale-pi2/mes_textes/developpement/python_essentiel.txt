@@ -1,0 +1,19 @@
+Lire et ecrire un fichier texte en Python : utilise with open("fichier.txt", "r", encoding="utf-8") as f: pour lire et le mode "w" pour ecrire (ou "a" pour ajouter). Toujours preciser encoding="utf-8" pour eviter les erreurs d'accents.
+
+Lister les fichiers d'un dossier en Python : utilise os.listdir(dossier) avec os.path.isfile(os.path.join(dossier, nom)) pour filtrer les fichiers. Pour parcourir aussi les sous-dossiers, utilise os.walk(dossier) ou glob.glob(os.path.join(dossier, "**/*"), recursive=True).
+
+Gerer les fichiers JSON en Python : importe le module json puis utilise json.load(f) pour lire un fichier JSON vers un dictionnaire et json.dump(data, f, ensure_ascii=False, indent=2) pour sauvegarder proprement.
+
+Requetes HTTP et API en Python : utilise urllib.request.urlopen(url) de la bibliotheque standard pour une requete simple, ou requests avec requests.get(url).json() pour recuperer directement des donnees JSON.
+
+Creer un mini serveur web HTTP en Python : utilise Flask avec @app.route("/") pour les pages et request.form ou request.args pour recuperer les donnees envoyees par le navigateur. Lance le serveur avec app.run(host="0.0.0.0", port=5000).
+
+Executer une commande systeme en Python : importe subprocess et utilise subprocess.run(["ls", "-la"], capture_output=True, text=True, check=True) pour lancer un programme externe et recuperer sa sortie texte en toute securite.
+
+Gerer les erreurs avec try except en Python : entoure le code risque d'un bloc try: suivi de except Exception as e: pour afficher le message d'erreur sans planter tout le programme.
+
+Expressions regulieres regex en Python : importe re puis utilise re.findall(motif, texte) pour extraire toutes les correspondances, re.search(motif, texte) pour tester une presence et re.sub(motif, remplacement, texte) pour nettoyer une chaine.
+
+Manipuler les dates et heures en Python : importe datetime et utilise datetime.datetime.now().strftime("%Y-%m-%d_%H%M") pour formater la date actuelle dans un nom de fichier ou un journal.
+
+Arguments en ligne de commande en Python : importe sys et lis sys.argv[1] pour le premier parametre passe au script (en verifiant len(sys.argv) > 1), ou utilise argparse pour gerer plusieurs options propres.

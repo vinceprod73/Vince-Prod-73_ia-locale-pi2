@@ -1,0 +1,5 @@
+Principe d'un conteneur Docker : Docker empaquette une application avec ses bibliotheques et dependances dans une image isolee et reproductible, plus legere qu'une machine virtuelle car elle partage le noyau Linux de l'hote.
+
+Commandes essentielles Docker : utilise docker ps pour lister les conteneurs actifs, docker images pour voir les images locales, docker run -d -p 8080:80 nom_image pour lancer un conteneur en arriere-plan, et docker logs nom_conteneur pour lire ses journaux.
+
+Arreter et nettoyer les conteneurs Docker : arrete un conteneur avec docker stop nom_conteneur, supprime-le avec docker rm nom_conteneur, et libere l'espace disque des ressources inutilisees avec docker system prune.

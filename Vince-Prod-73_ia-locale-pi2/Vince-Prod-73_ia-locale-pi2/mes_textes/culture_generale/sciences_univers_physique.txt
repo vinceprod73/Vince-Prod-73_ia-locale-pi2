@@ -1,0 +1,9 @@
+Le systeme solaire et les planetes : autour du Soleil tournent huit planetes dans l'ordre : Mercure, Venus, la Terre, Mars (telluriques et rocheuses), puis Jupiter, Saturne, Uranus et Neptune (geantes gazeuses et de glaces). La lumiere du Soleil met environ 8 minutes a atteindre la Terre.
+
+Les trois lois de Newton et la gravite : Isaac Newton decrit l'inertie, la relation entre force, masse et acceleration (F = m * a) et le principe d'action-reaction. La gravitation universelle explique a la fois la chute des corps sur Terre et l'orbite des planetes.
+
+La relativite d'Einstein et la physique quantique : au debut du XXe siecle, Albert Einstein montre que le temps et l'espace sont relatifs et relie masse et energie par E = mc2. La mecanique quantique decrit quant a elle le comportement probabiliste des atomes et des particules elementaires.
+
+Les etats de la matiere et les atomes : un atome est compose d'un noyau (protons positifs et neutrons neutres) entoure d'electrons negatifs. La matiere existe principalement sous forme solide, liquide, gazeuse ou plasma selon la temperature et la pression.
+
+La vitesse de la lumiere et du son : dans le vide, la lumiere se deplace a environ 300 000 kilometres par seconde (limite absolue de vitesse dans l'univers). Dans l'air, le son voyage beaucoup plus lentement, a environ 340 metres par seconde (soit 1 km en 3 secondes).

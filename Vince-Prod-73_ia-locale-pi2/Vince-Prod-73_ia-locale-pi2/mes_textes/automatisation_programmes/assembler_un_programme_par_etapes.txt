@@ -1,0 +1,5 @@
+Construire un programme en 4 etapes simples : 1) definir l'entree (ex: un dossier ou une liste), 2) definir le traitement (filtrer, renommer, verifier, transformer), 3) definir la sortie (fichier, archive, rapport, affichage), 4) ajouter la gestion d'erreur et les logs.
+
+Decouper une demande de code pour un petit modele : demande d'abord une fonction ou un script court qui fait une seule action claire, teste-le, puis demande l'ajout d'une option precise (ex: ajouter un argument de dossier ou ignorer les fichiers caches) plutot que tout demander d'un seul bloc.
+
+Reutiliser ses propres scripts comme briques de base : place chaque petit programme automatise testé dans ~/ia_locale/mes_scripts/ avec ses lignes # Description: et # Mots-cles: en haut afin que la recherche et l'IA puissent s'en inspirer lors des prochaines demandes.

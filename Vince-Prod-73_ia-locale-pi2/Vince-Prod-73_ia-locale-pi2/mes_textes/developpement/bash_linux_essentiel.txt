@@ -1,0 +1,15 @@
+Structure d'un script Bash Linux : commence toujours par #!/bin/bash sur la premiere ligne et ajoute set -e pour arreter le script immediatement en cas d'erreur. Rends le fichier executable avec chmod +x script.sh.
+
+Variables et arguments en Bash : definis une variable sans espace autour du signe egal comme DOSSIER="/home/pi" et lis-la avec "$DOSSIER". Les arguments passes au script sont $1, $2 et la valeur par defaut s'ecrit "${1:-valeur_defaut}".
+
+Conditions if et tests de fichiers en Bash : utilise if [ -f "$FICHIER" ]; then pour tester si un fichier existe, [ -d "$DOSSIER" ] pour un dossier, et [ -z "$VAR" ] pour verifier si une chaine est vide. Termine toujours par fi.
+
+Boucles sur des fichiers en Bash : utilise for f in *.txt; do echo "$f"; done pour parcourir les fichiers d'un dossier. Protege toujours "$f" entre guillemets pour gerer les noms contenant des espaces.
+
+Creer une sauvegarde archive tar.gz en Bash : utilise tar -czf sauvegarde_$(date +%Y-%m-%d).tar.gz dossier_source pour compresser un dossier. Utilise tar -xzf archive.tar.gz -C destination pour extraire l'archive.
+
+Rechercher des fichiers avec find en Bash : utilise find /chemin -type f -name "*.log" pour trouver tous les fichiers correspondants. Ajoute -mtime -7 pour les fichiers modifies depuis moins de 7 jours.
+
+Filtrer du texte avec grep awk sed en Bash : utilise grep -rn "mot" dossier/ pour chercher un texte dans des fichiers, sed -i 's/ancien/nouveau/g' fichier pour remplacer en place, et awk '{print $1}' pour extraire une colonne.
+
+Planifier une tache automatique cron sous Linux : tape crontab -e pour editer les taches planifiees. La syntaxe est minute heure jour mois jour_semaine commande, par exemple 0 3 * * * /home/pi/sauvegarde.sh pour lancer chaque nuit a 3h.

@@ -1,0 +1,7 @@
+Des premieres machines a calculer aux ordinateurs : au XVIIe siecle, Blaise Pascal invente la Pascaline. Au XIXe siecle, Charles Babbage imagine la machine analytique et Ada Lovelace ecrit le premier algorithme programme de l'histoire.
+
+Alan Turing et les premiers ordinateurs (1936 - 1945) : le mathematicien britannique Alan Turing formalise le concept de machine universelle et contribue au dechiffrement de la machine Enigma durant la Seconde Guerre mondiale. En 1945, l'ENIAC devient l'un des premiers grands ordinateurs electroniques programmables.
+
+Du transistor au microprocesseur (1947 - 1971) : l'invention du transistor en 1947 remplace les tubes a vide fragiles et encombrants. En 1971, Intel commercialise le 4004, premier microprocesseur complet sur une seule puce de silicium, ouvrant la voie aux ordinateurs personnels.
+
+Naissance d'Unix, de Linux et du Web : en 1969, Ken Thompson et Dennis Ritchie creent le systeme Unix et le langage C. En 1989-1991, Tim Berners-Lee invente le World Wide Web (HTML, HTTP, URL) au CERN, tandis que Linus Torvalds lance le noyau libre Linux en 1991.

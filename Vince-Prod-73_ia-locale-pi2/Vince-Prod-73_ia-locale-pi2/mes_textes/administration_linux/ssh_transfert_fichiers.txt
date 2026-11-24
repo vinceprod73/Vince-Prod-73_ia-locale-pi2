@@ -1,0 +1,7 @@
+Connexion distante securisee avec SSH : connecte-toi au Raspberry Pi depuis un autre ordinateur avec ssh utilisateur@adresse_ip (exemple : ssh pi@192.168.1.50). Active le serveur SSH sur Raspberry Pi via sudo raspi-config dans Interface Options.
+
+Copier des fichiers via le reseau avec SCP : envoie un fichier local vers le Raspberry Pi avec scp fichier.txt pi@192.168.1.50:/home/pi/ia_locale/mes_textes/ et recupere un dossier entier avec scp -r pi@192.168.1.50:/home/pi/sauvegardes ./sauvegardes.
+
+Synchroniser efficacement des dossiers avec rsync : utilise rsync -avz --progress dossier_source/ pi@192.168.1.50:/home/pi/destination/ pour ne transferer que les fichiers modifies ou nouveaux tout en conservant les permissions.
+
+Authentification SSH par cle sans mot de passe : genere une paire de cles sur le PC client avec ssh-keygen -t ed25519 puis copie la cle publique sur le Raspberry Pi avec ssh-copy-id pi@192.168.1.50 pour te connecter sans taper le mot de passe.

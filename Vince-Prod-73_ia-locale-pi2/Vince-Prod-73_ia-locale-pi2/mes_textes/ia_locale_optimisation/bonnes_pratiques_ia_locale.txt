@@ -1,0 +1,5 @@
+Fonctionnement d'un modele de langage local LLM : un LLM predit le mot (token) suivant le plus probable a partir du contexte fourni. Un petit modele comme Qwen2.5-Coder 0.5B est rapide en memoire mais demande des consignes courtes, directes et une seule tache a la fois.
+
+Parametres de generation LLM : la temperature controle la creativite (0.1 a 0.2 pour du code precis et deterministe, 0.7 pour du texte varie). Le parametre max_tokens limite la longueur de la reponse et repeat_penalty (ex: 1.1) evite que le modele tourne en boucle.
+
+Formatage des fiches pour la recherche RAG : dans un systeme de recherche locale (BM25), chaque paragraphe separe par une ligne vide est indexe separement. Placer les mots-cles exacts en debut de paragraphe et garder des blocs de moins de 400 caracteres ameliore la pertinence et la vitesse.

@@ -1,0 +1,9 @@
+Creer et gerer un service systemd : place un fichier mon_service.service dans /etc/systemd/system/ avec les sections [Unit], [Service] (ExecStart, User, Restart=always) et [Install] (WantedBy=multi-user.target). Active-le au demarrage avec sudo systemctl enable mon_service et demarre-le avec sudo systemctl start mon_service.
+
+Recharger systemd apres modification : chaque fois que tu modifies un fichier .service dans /etc/systemd/system/, execute sudo systemctl daemon-reload puis sudo systemctl restart mon_service pour appliquer les changements.
+
+Consulter les journaux d'un service avec journalctl : utilise sudo journalctl -u mon_service -n 50 pour voir les 50 dernieres lignes de log, ou sudo journalctl -u mon_service -f pour suivre les messages en temps reel.
+
+Planifier une tache automatique avec cron : ouvre la table cron de l'utilisateur avec crontab -e et ajoute une ligne au format minute heure jour mois jour_semaine commande. Par exemple 0 3 * * * /home/pi/sauvegarde.sh lance le script tous les jours a 3h00.
+
+Surveiller la memoire et les processus sous Linux : utilise free -h pour afficher la RAM et le swap disponibles en format lisible, df -h pour l'espace disque des partitions, et top ou htop pour voir les processus qui consomment le plus de CPU et de memoire.

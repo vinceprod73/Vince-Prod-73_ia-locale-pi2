@@ -1,0 +1,5 @@
+Lire et filtrer un fichier ligne par ligne en Python : ouvre le fichier avec open(chemin, "r", encoding="utf-8", errors="replace") et parcours-le avec for ligne in f: sans charger tout le fichier d'un coup, ce qui economise la RAM sur Raspberry Pi.
+
+Generer ou analyser un fichier CSV en Python : importe le module csv, utilise csv.reader ou csv.DictReader pour lire proprement les colonnes et csv.writer pour ecrire un rapport tabulaire (ex: nom_fichier, taille_octets, statut) exploitable dans un tableur.
+
+Analyser des fichiers de logs simplement : filtre les lignes contenant des motifs comme ERROR, WARN ou timeout, compte les occurrences avec collections.Counter, et affiche un resume court des erreurs les plus frequentes.

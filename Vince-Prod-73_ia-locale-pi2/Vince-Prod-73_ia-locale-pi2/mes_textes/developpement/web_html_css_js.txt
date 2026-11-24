@@ -1,0 +1,11 @@
+Structure minimale d'une page HTML5 : utilise <!doctype html>, <html lang="fr">, <meta charset="utf-8"> pour les accents, <meta name="viewport" content="width=device-width, initial-scale=1"> pour l'affichage mobile, et place le contenu visible dans <body>.
+
+Formulaire HTML et envoi de donnees : utilise <form method="post" action="/url"> avec des champs <input type="text" name="nom" required> et un bouton <button type="submit">Envoyer</button>. L'attribut name est indispensable cote serveur.
+
+Mise en page moderne en CSS : utilise display: flex; justify-content: space-between; align-items: center; pour aligner des elements sur une ligne, ou display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; pour des cartes adaptatives.
+
+Selectionner et modifier le DOM en JavaScript : utilise document.getElementById("id") ou document.querySelector(".classe") pour cibler un element, textContent pour changer son texte en toute securite, et addEventListener("click", function() { ... }) pour reagir aux clics.
+
+Appeler une API en JavaScript avec fetch : utilise async function envoyer() { const rep = await fetch("/api", { method: "POST", body: formData }); const data = await rep.json(); } pour communiquer avec le serveur sans recharger la page.
+
+Stocker des donnees dans le navigateur en JavaScript : utilise localStorage.setItem("cle", JSON.stringify(valeur)) pour enregistrer des preferences localement et JSON.parse(localStorage.getItem("cle")) pour les relire.

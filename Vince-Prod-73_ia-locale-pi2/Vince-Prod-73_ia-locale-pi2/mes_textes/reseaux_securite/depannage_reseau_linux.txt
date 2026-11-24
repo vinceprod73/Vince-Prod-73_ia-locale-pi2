@@ -1,0 +1,7 @@
+Tester la connectivite reseau avec ping et curl : utilise ping -c 4 192.168.1.1 pour verifier la liaison avec la box ou le routeur, et curl -I http://127.0.0.1:5000 pour tester la reponse HTTP d'un serveur web local.
+
+Voir les ports ouverts et services en ecoute sur Linux : execute sudo ss -tulnp pour afficher tous les ports TCP et UDP ouverts ainsi que le nom du programme qui ecoute sur chaque port.
+
+Configurer un pare-feu simple avec UFW : autorise d'abord SSH avec sudo ufw allow 22/tcp, autorise le reseau local sur le port 5000 avec sudo ufw allow from 192.168.1.0/24 to any port 5000, puis active le pare-feu avec sudo ufw enable.
+
+Diagnostic DNS sous Linux : utilise dig exemple.com ou nslookup exemple.com pour verifier si un nom de domaine se traduit correctement en adresse IP, et verifie les serveurs DNS configures dans /etc/resolv.conf.

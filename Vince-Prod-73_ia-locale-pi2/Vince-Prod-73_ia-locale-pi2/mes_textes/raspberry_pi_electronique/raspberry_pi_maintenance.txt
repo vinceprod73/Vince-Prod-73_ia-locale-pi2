@@ -1,0 +1,7 @@
+Verifier la temperature et l'alimentation du Raspberry Pi : execute vcgencmd measure_temp pour lire la temperature du processeur en degres Celsius (idealement sous 75 C) et vcgencmd get_throttled pour verifier s'il y a eu une baisse de tension ou une limitation thermique (0x0 signifie aucun probleme).
+
+Gerer la memoire swap sur Raspberry Pi OS : le fichier /etc/dphys-swapfile definit la taille de la memoire virtuelle sur carte SD avec CONF_SWAPSIZE=1024 (en Mo). Apres modification, applique avec sudo dphys-swapfile setup puis sudo dphys-swapfile swapon.
+
+Mettre a jour proprement Raspberry Pi OS : lance sudo apt-get update pour actualiser la liste des paquets, puis sudo apt-get upgrade -y pour installer les mises a jour, et sudo apt-get autoremove -y pour nettoyer les paquets inutiles.
+
+Trouver l'adresse IP locale du Raspberry Pi : utilise hostname -I pour afficher rapidement l'adresse IP sur le reseau local, ou ip addr show pour voir le detail des interfaces reseau eth0 (cable) et wlan0 (Wi-Fi).

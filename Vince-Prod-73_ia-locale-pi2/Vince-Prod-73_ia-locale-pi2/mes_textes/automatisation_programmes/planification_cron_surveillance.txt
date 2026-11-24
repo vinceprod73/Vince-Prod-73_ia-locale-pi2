@@ -1,0 +1,5 @@
+Automatiser l'execution reguliere d'un script avec cron : utilise crontab -e pour planifier un script a intervalle fixe, par exemple */15 * * * * toutes les 15 minutes ou 0 2 * * * tous les jours a 2h, en donnant toujours les chemins absolus (/home/pi/...) dans la commande.
+
+Boucle de surveillance legere en Bash ou Python : pour surveiller un etat en continu (ex: verifier un fichier ou un service toutes les N secondes), utilise une boucle while true avec sleep 30 et un message clair lors d'un changement d'etat, tout en gardant un temps d'attente raisonnable pour ne pas charger le CPU.
+
+Sauvegarde incrementale et rotation d'archives : nomme les archives ou rapports avec la date et l'heure (ex: YYYY-MM-DD_HHMM) et supprime automatiquement les fichiers les plus anciens au-dela d'un certain nombre afin de ne pas remplir la carte SD du Raspberry Pi.

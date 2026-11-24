@@ -1,0 +1,7 @@
+Bits, octets et unites informatiques : un bit vaut 0 ou 1. Un octet (byte) regroupe 8 bits et peut coder 256 valeurs (de 0 a 255). 1 Ko vaut 1024 octets (Kio), 1 Mo vaut 1024 Ko et 1 Go vaut 1024 Mo.
+
+Systemes binaire et hexadecimal : les ordinateurs calculent en base 2 (binaire). L'hexadecimal (base 16, chiffres 0-9 et lettres A-F) sert a ecrire compactement les octets : chaque chiffre hexadecimal represente exactement 4 bits, donc deux chiffres forment un octet (ex: FF = 255).
+
+Encodage des caracteres ASCII et UTF-8 : ASCII code les 128 caracteres anglais de base sur 7 bits. UTF-8 est le standard universel actuel : il reste compatible avec ASCII sur 1 octet et code les accents, symboles et emojis sur 2 a 4 octets.
+
+Types de donnees en memoire : un entier (int) stocke un nombre sans virgule (souvent sur 32 ou 64 bits), un flottant (float) stocke un nombre a virgule approchee, un booleen (bool) vaut vrai ou faux, et une chaine (string) est une suite de caracteres.

@@ -1,0 +1,7 @@
+Scripts PowerShell sous Windows : les commandes suivent la forme Verbe-Nom comme Get-ChildItem pour lister un dossier, Get-Content fichier.txt pour lire un fichier et Set-Content pour ecrire. Les variables commencent par $.
+
+Fichiers Batch (.bat) sous Windows : commence par @echo off pour masquer les commandes, utilise set VAR=valeur pour une variable, %1 pour le premier argument, if exist fichier.txt (...) pour tester un fichier et pause pour attendre une touche.
+
+Bases du langage Lua : Lua est un langage leger souple utilise dans les jeux et l'embarque. Les variables sont globales par defaut (prefere local x = 10), les tableaux (tables) servent a la fois de listes (indexees a partir de 1) et de dictionnaires.
+
+Algorithmes et structures de donnees essentiels : un tableau offre un acces direct par index O(1), une table de hachage (dictionnaire) retrouve une cle en O(1), la recherche binaire cherche dans une liste triee en O(log n) et le tri rapide (quicksort) trie en O(n log n).

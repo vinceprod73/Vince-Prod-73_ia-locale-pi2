@@ -1,0 +1,5 @@
+Formuler une demande efficace pour un petit modele IA : pose une seule question claire et courte a la fois, precise le langage souhaite (exemple : ecris un script bash qui...) et evite les demandes multiples dans la meme phrase.
+
+Structurer une fiche de connaissances pour l'indexation locale : cree des paragraphes courts de 3 a 5 lignes separes par une ligne vide, et commence chaque paragraphe par le nom exact du sujet suivi de deux points (exemple : Commande grep : ...).
+
+Documenter un script pour le moteur de recherche local : ajoute toujours en haut du script les deux lignes # Description: ... et # Mots-cles: ... avec des synonymes courants afin que le script remonte en premier lors de la recherche.

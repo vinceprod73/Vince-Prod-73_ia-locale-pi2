@@ -1,0 +1,9 @@
+Structure minimale d'un programme en C : inclus <stdio.h> et <stdlib.h>, definis int main(void) { printf("Bonjour\n"); return 0; }. Compile avec gcc -O2 -Wall programme.c -o programme.
+
+Gestion de la memoire et pointeurs en C : alloue dynamiquement avec malloc(taille * sizeof(type)), verifie toujours que le pointeur n'est pas NULL, et libere obligatoirement la memoire avec free(ptr) pour eviter les fuites.
+
+Lire et ecrire un fichier en C : ouvre avec FILE *f = fopen("data.txt", "r"); verifie if (!f) return 1; lis ligne par ligne avec fgets(buffer, sizeof(buffer), f) et ferme toujours avec fclose(f).
+
+Structure moderne en C++ : inclus <iostream>, <vector> et <string>. Prefere std::vector et std::string aux tableaux bruts, et utilise std::unique_ptr pour gerer la memoire automatiquement sans fuite.
+
+Compilation C et C++ avec CMake : cree un fichier CMakeLists.txt avec cmake_minimum_required(VERSION 3.10), project(MonApp) et add_executable(mon_app main.cpp). Compile ensuite avec cmake -B build && cmake --build build -j2.

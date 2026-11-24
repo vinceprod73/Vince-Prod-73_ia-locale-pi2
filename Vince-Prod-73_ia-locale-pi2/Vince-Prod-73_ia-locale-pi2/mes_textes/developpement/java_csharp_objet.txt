@@ -1,0 +1,7 @@
+Structure minimale en Java : cree une classe publique portant le nom du fichier avec public class Main { public static void main(String[] args) { System.out.println("Bonjour"); } }. Compile avec javac Main.java et lance avec java Main.
+
+Listes et dictionnaires en Java : utilise ArrayList<String> liste = new ArrayList<>(); pour une liste dynamique et HashMap<String, Integer> map = new HashMap<>(); pour stocker des paires cle-valeur.
+
+Structure minimale en C# (.NET) : utilise Console.WriteLine("Bonjour"); dans Program.cs. Les collections principales sont List<string> et Dictionary<string, int> avec la boucle foreach (var item in liste).
+
+Programmation orientee objet POO : une classe regroupe des attributs (donnees) et des methodes (actions). L'encapsulation protege les donnees internes (private), l'heritage reutilise une classe parente et le polymorphisme adapte un comportement selon l'objet.

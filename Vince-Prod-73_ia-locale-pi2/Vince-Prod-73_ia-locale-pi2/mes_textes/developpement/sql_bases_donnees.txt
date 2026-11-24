@@ -1,0 +1,9 @@
+Creer une table en SQL : utilise CREATE TABLE utilisateurs (id INTEGER PRIMARY KEY AUTOINCREMENT, nom TEXT NOT NULL, email TEXT UNIQUE, cree_le DATETIME DEFAULT CURRENT_TIMESTAMP); pour structurer proprement les donnees.
+
+Inserer et mettre a jour des donnees en SQL : utilise INSERT INTO utilisateurs (nom, email) VALUES ('Alice', 'alice@exemple.fr'); pour ajouter une ligne, et UPDATE utilisateurs SET nom = 'Bob' WHERE id = 1; avec toujours une clause WHERE.
+
+Rechercher et filtrer en SQL : utilise SELECT nom, email FROM utilisateurs WHERE nom LIKE '%ali%' ORDER BY cree_le DESC LIMIT 10; pour filtrer, trier et limiter les resultats.
+
+Relier deux tables avec JOIN en SQL : utilise SELECT commandes.id, utilisateurs.nom FROM commandes INNER JOIN utilisateurs ON commandes.user_id = utilisateurs.id; pour croiser des donnees liees par cle etrangere.
+
+Securite SQL contre les injections : ne concatene jamais des variables utilisateur dans une requete SQL. Utilise toujours des requetes preparees avec des parametres comme cursor.execute("SELECT * FROM users WHERE id = ?", (user_id,)).

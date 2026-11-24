@@ -1,0 +1,5 @@
+Algebre booleenne et portes logiques : ET (AND) est vrai uniquement si les deux entrees sont vraies. OU (OR) est vrai si au moins une entree est vraie. NON (NOT) inverse la valeur. OU exclusif (XOR) est vrai uniquement si les deux entrees sont differentes.
+
+Pourcentages, moyennes et probabilites : pour calculer une augmentation de t%, multiplie par (1 + t/100). La moyenne arithmetique est la somme des valeurs divisee par leur nombre, tandis que la mediane est la valeur centrale qui separe la serie en deux moities egales.
+
+Geometrie et trigonometrie de base : le theoreme de Pythagore dans un triangle rectangle donne a2 + b2 = c2. Le perimetre d'un cercle vaut 2 * pi * r et son aire vaut pi * r2. En programmation graphique, cosinus et sinus convertissent un angle en coordonnees (x, y).

@@ -1,0 +1,7 @@
+Commandes de base Git : utilise git status pour voir les fichiers modifies, git add . pour preparer les changements, git commit -m "Message clair" pour enregistrer une etape, et git push pour envoyer vers le depot distant.
+
+Branches et historique en Git : cree une branche de test avec git checkout -b nouvelle-fonctionnalite, reviens sur la branche principale avec git checkout main, et fusionne avec git merge nouvelle-fonctionnalite.
+
+Annuler une erreur en Git : utilise git checkout -- fichier.py pour annuler les modifications non enregistrees d'un fichier, ou git revert HEAD pour annuler proprement le dernier commit sans casser l'historique.
+
+Bonnes pratiques de code propre : donne des noms explicites aux variables et fonctions, decoupe chaque tache en petites fonctions courtes, gere toujours les cas d'erreur d'entree/sortie et evite les valeurs en dur dans le code.

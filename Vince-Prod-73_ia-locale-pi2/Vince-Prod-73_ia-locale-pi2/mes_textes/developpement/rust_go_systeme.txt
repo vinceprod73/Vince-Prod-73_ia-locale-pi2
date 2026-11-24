@@ -1,0 +1,7 @@
+Bases du langage Go (Golang) : commence par package main, importe "fmt" et definis func main() { fmt.Println("Bonjour") }. Go gere les erreurs explicitement en retournant (resultat, err) et lance des taches concurrentes avec go maFonction().
+
+Serveur HTTP rapide en Go : importe "net/http", definis http.HandleFunc("/", handler) et lance http.ListenAndServe(":8080", nil). Go compile en un seul fichier binaire autonome sans dependance externe.
+
+Bases du langage Rust : chaque variable est immuable par defaut (let x = 5;), utilise let mut x = 5; pour la modifier. Rust garantit la securite memoire sans ramasse-miettes grace aux regles de propriete (ownership) et d'emprunt (&valeur).
+
+Gestion des erreurs en Rust : utilise le type Result<T, E> avec Ok(valeur) ou Err(erreur), et l'operateur ? pour propager proprement une erreur. Utilise Option<T> avec Some(valeur) ou None quand une valeur peut etre absente.

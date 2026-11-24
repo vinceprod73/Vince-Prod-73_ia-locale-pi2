@@ -1,0 +1,9 @@
+Adresse IP et masque de sous-reseau : une adresse IPv4 (ex: 192.168.1.25) identifie une machine sur un reseau. Les plages 192.168.x.x, 10.x.x.x et 172.16-31.x.x sont reservees aux reseaux locaux prives (LAN) non accessibles directement depuis Internet.
+
+DNS (Domain Name System) : le DNS traduit un nom de domaine lisible par l'humain (ex: github.com) en adresse IP numerique utilisable par les machines. Le fichier /etc/hosts sous Linux permet aussi de definir des correspondances locales manuelles.
+
+Ports reseau et protocoles TCP UDP : une adresse IP designe la machine et un port (de 1 a 65535) designe le service (ex: 22 pour SSH, 80 pour HTTP, 443 pour HTTPS, 5000 pour une appli web locale). TCP garantit la livraison ordonnee des paquets, tandis qu'UDP privilegie la vitesse sans confirmation.
+
+Protocole HTTP et API REST : HTTP fonctionne par requetes et reponses entre un client et un serveur. GET sert a lire une ressource, POST a envoyer des donnees, PUT a modifier et DELETE a supprimer. Les codes 200 indiquent un succes, 404 une page introuvable et 500 une erreur serveur.
+
+Commandes reseau utiles sous Linux : utilise hostname -I ou ip a pour connaitre ton adresse IP locale, ping -c 4 8.8.8.8 pour tester la connexion Internet, ss -tulnp pour lister les ports ouverts en ecoute et curl -I url pour tester un serveur web.

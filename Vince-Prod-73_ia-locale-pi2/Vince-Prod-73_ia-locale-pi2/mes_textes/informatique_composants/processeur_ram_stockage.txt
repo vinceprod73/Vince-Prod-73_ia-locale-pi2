@@ -1,0 +1,11 @@
+Le processeur CPU : c'est le cerveau de l'ordinateur qui execute les instructions des programmes. Sa performance depend du nombre de coeurs (ex: 4 coeurs sur un Raspberry Pi 2), de sa frequence en GHz, de son architecture (ARM, x86_64) et de sa memoire cache ultra-rapide (L1, L2).
+
+La memoire vive RAM : c'est la memoire de travail rapide et volatile (effacee a l'extinction) ou sont charges le systeme d'exploitation et les programmes actifs. Si la RAM est pleine (ex: 1 Go sur un Pi 2), le systeme ralentit fortement ou utilise le fichier d'echange swap.
+
+La memoire swap (fichier d'echange) : c'est un espace reserve sur le stockage (carte SD ou disque) qui sert de memoire RAM de secours lorsque la RAM physique est saturee. Le swap evite les plantages par manque de memoire mais reste beaucoup plus lent que la vraie RAM.
+
+Stockage SSD, disque dur HDD et carte microSD : le disque dur HDD utilise des plateaux magnetiques mecaniques lents mais peu chers. Le SSD utilise de la memoire flash rapide sans piece mobile. La carte microSD d'un Raspberry Pi est une memoire flash compacte sensible aux ecritures repetees.
+
+Carte mere, bus et chipset : la carte mere relie tous les composants entre eux via des bus de communication (PCIe pour les cartes rapides, USB pour les peripheriques, SATA ou NVMe pour le stockage, I2C et SPI pour les capteurs electroniques).
+
+Alimentation et refroidissement : un composant electronique chauffe proportionnellement a sa charge de calcul. Si la temperature depasse un seuil (ex: 80-85 degres sur Raspberry Pi), le processeur reduit automatiquement sa frequence (thermal throttling) pour se proteger.

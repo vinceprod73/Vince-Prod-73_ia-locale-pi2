@@ -1,0 +1,5 @@
+Bases des expressions regulieres (regex) : le point . remplace n'importe quel caractere, ^ marque le debut d'une ligne, $ marque la fin d'une ligne, * repete zero ou plusieurs fois, + repete une ou plusieurs fois, et ? rend un element optionnel.
+
+Classes de caracteres utiles en regex : [0-9] ou \d designe un chiffre, [a-zA-Z] une lettre, \s un espace ou tabulation, et [^abc] tout caractere sauf a, b ou c.
+
+Rechercher dans des fichiers avec grep et regex : utilise grep -rn "motif" dossier/ pour chercher un texte recursivement avec numeros de ligne, et grep -E "erreur|echec" fichier.log pour chercher plusieurs mots avec des expressions regulieres etendues.

@@ -1,0 +1,7 @@
+Patron d'automatisation de fichiers en Python : utilise pathlib.Path pour lister un dossier, verifier l'extension ou la taille, creer un dossier cible avec mkdir(parents=True, exist_ok=True), et deplacer ou renommer les fichiers en gerant les collisions pour ne jamais ecraser un fichier existant.
+
+Patron de script automatise robuste en Bash : commence par #!/bin/bash et set -euo pipefail (ou set -e), verifie les arguments ou dossiers requis, affiche des messages clairs avec la date, et utilise des guillemets doubles autour de toutes les variables contenant des chemins.
+
+Gestion des erreurs et journalisation dans un programme automatise : enveloppe les operations sensibles (lecture/ecriture disque, reseau, sous-processus) dans try/except en Python ou teste les codes retour en Bash, et ecris les messages importants avec un horodatage dans un fichier log ou sur la sortie standard.
+
+Parametrage d'un petit programme automatise : place les variables configurables (chemins, delais, seuils, extensions) en haut du fichier ou lis-les via sys.argv / variables d'environnement afin de pouvoir reutiliser le meme programme sur plusieurs dossiers sans modifier sa logique.

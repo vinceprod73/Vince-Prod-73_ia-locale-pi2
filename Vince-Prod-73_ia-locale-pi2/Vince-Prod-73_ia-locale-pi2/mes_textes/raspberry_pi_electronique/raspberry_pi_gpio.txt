@@ -1,0 +1,7 @@
+Broches GPIO du Raspberry Pi : le connecteur a 40 broches permet de piloter des composants electroniques en 3,3 volts uniquement. Attention : envoyer du 5 volts sur une entree GPIO peut detruire definitivement le processeur du Raspberry Pi.
+
+Commander une LED ou lire un bouton en Python : utilise la bibliotheque gpiozero avec from gpiozero import LED, Button. Ecris led = LED(17) puis led.on() ou led.off() pour allumer et eteindre une LED branchee sur le GPIO 17 (numerotation BCM).
+
+Bus I2C et SPI sur Raspberry Pi : I2C utilise deux fils (SDA pour les donnees, SCL pour l'horloge) pour relier plusieurs capteurs (temperature, ecran OLED) avec chacun une adresse unique. SPI est plus rapide et utilise 4 fils (MOSI, MISO, SCLK, CS).
+
+Surveiller la sante d'un Raspberry Pi : utilise vcgencmd measure_temp pour afficher la temperature du processeur, free -h pour verifier la memoire RAM et swap disponible, et df -h pour controler l'espace libre sur la carte SD.

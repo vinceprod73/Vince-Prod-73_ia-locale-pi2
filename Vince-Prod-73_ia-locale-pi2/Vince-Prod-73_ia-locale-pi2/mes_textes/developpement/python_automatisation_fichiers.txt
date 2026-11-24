@@ -1,0 +1,7 @@
+Parcourir recursivement des fichiers en Python : utilise os.walk(dossier) pour parcourir tous les sous-dossiers, ou pathlib.Path(dossier).rglob("*.txt") pour lister facilement tous les fichiers correspondant a une extension donnee.
+
+Lire et ecrire du JSON en Python : importe le module json, lis un fichier avec data = json.load(open("config.json", encoding="utf-8")) et sauvegarde un dictionnaire avec json.dump(data, open("config.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2).
+
+Executer une commande systeme en Python : utilise subprocess.run(["ls", "-lh"], capture_output=True, text=True, check=True) pour lancer une commande externe en securite et recuperer sa sortie standard via resultat.stdout.
+
+Faire une requete HTTP simple sans dependance externe en Python : utilise urllib.request.urlopen("http://127.0.0.1:5000", timeout=10) pour lire une page ou interroger une API locale avec la bibliotheque standard Python.

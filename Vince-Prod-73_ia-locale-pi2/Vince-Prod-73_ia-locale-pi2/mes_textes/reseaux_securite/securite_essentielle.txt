@@ -1,0 +1,7 @@
+Connexion a distance securisee SSH : SSH permet de piloter un ordinateur Linux a distance en chiffrant tous les echanges sur le port 22. Prefere l'authentification par cle SSH (ssh-keygen puis ssh-copy-id) plutot que par mot de passe.
+
+Pare-feu firewall : un pare-feu filtre les connexions entrantes et sortantes selon les ports et adresses IP autorises. Sous Linux, ufw permet de regler facilement les regles avec sudo ufw allow 22 et sudo ufw enable.
+
+Chiffrement symetrique et asymetrique : le chiffrement symetrique (ex: AES) utilise la meme cle secrete pour chiffrer et dechiffrer rapidement. Le chiffrement asymetrique (ex: RSA, Ed25519) utilise une cle publique pour chiffrer ou verifier et une cle privee pour dechiffrer ou signer.
+
+Hachage cryptographique : une fonction de hachage (ex: SHA-256) transforme n'importe quelle donnee en une empreinte unique de taille fixe. C'est irreversible : on l'utilise pour verifier l'integrite d'un fichier telecharge ou stocker des mots de passe (avec bcrypt ou Argon2).
